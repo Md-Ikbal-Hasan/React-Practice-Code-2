@@ -4,9 +4,8 @@ import { useParams, useLocation } from 'react-router-dom';
 import { blogsData } from '../../data';
 
 const Blog = () => {
-    const { title } = useParams();
-    const location = useLocation();
-    // console.log("Location: ", location);
+
+    // const { title } = useParams();
 
     // const [bodyData, setBodyData] = useState("");
     // useEffect(() => {
@@ -15,11 +14,15 @@ const Blog = () => {
 
     // }, [])
 
+
+    const location = useLocation();
+    // console.log("Location: ", location);
+
     const navigate = useNavigate();
 
     return (
         <div>
-            <h1>{title} Page </h1>
+            <h1>{location.state.title} Page </h1>
             <p> {location.state.body.slice(0, 500)} </p>
             <p> {location.state.body.slice(501, 5000)} </p>
 
