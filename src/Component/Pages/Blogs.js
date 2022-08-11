@@ -1,11 +1,40 @@
-import React from 'react'
+import React, { useState } from 'react'
+import { Link } from 'react-router-dom'
+
+import { blogsData } from '../../data'
+
 
 const Blogs = () => {
+
+    const [blogs, setBlogs] = useState(blogsData);
+    console.log(blogs);
+
+    const truncateString = (str, num) => {
+        if (str.length > num) {
+            return str.slice(0, num) + "...";
+        } else {
+            return str;
+        }
+    }
+
+
+
     return (
         <div>
             <h1>Blogs page</h1>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Beatae nemo, cum consectetur architecto unde nisi commodi temporibus. Doloremque quo fugit nostrum. Nesciunt dicta ducimus sequi doloribus natus, blanditiis similique ea assumenda aspernatur accusamus laudantium nemo nostrum dolor dolorem officia nulla doloremque ipsum asperiores! Labore consequatur dignissimos accusantium facilis illo esse!</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore atque ipsam ad rerum at, itaque possimus accusamus asperiores suscipit deserunt perspiciatis voluptatibus et officiis, eos nulla placeat! Inventore, veniam exercitationem.</p>
+
+            <section>
+                {blogs.map((blog) => {
+                    const { id, title, body } = blog
+                    return <article key={id}>
+                        <h3>{title}</h3>
+                        <p> {truncateString(body, 100)} </p>
+                        <Link to={title} > Learn More</Link>
+
+                    </article>
+                })}
+            </section>
+
         </div>
     )
 }

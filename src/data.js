@@ -1,0 +1,29 @@
+export const blogsData = [
+    {
+        id: 1,
+        title: "HTML",
+        body: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia corrupti alias in. Inventore sint ea fugiat. Asperiores maxime earum blanditiis. Totam rerum maxime voluptatem labore, ea explicabo tempore autem nulla? Qui hic porro minima tempore nesciunt sit distinctio a impedit dignissimos. Commodi, dignissimos ipsum! Omnis sint magni sunt impedit deserunt assumenda autem, voluptatibus harum explicabo id similique maiores doloribus, placeat labore officiis odio minima dignissimos fuga sequi? Accusamus, velit dolores?Totam rerum maxime voluptatem labore, ea explicabo tempore autem nulla? Qui hic porro minima tempore nesciunt sit distinctio a impedit dignissimos. Commodi, dignissimos ipsum! Omnis sint magni sunt impedit deserunt assumenda autem, voluptatibus harum explicabo id similique maiores doloribus, placeat labore officiis odio minima dignissimos fuga sequi? Accusamus, velit dolores?unt sit distinctio a impedit dignissimos. Commodi, dignissimos ipsum! Omnis sint magni sunt impedit deserunt assumenda autem, voluptatibus harum explicabo id similique maiores doloribus, placeat labore officiis odio minima dignissimos fuga sequi? Accusamus, velit dolores?"
+    },
+
+    {
+        id: 2,
+        title: "CSS",
+        body: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia corrupti alias in. Inventore sint ea fugiat. Asperiores maxime earum blanditiis. Totam rerum maxime voluptatem labore, ea explicabo tempore autem nulla? Qui hic porro minima tempore nesciunt sit distinctio a impedit dignissimos. Commodi, dignissimos ipsum! Omnis sint magni sunt impedit deserunt assumenda autem, voluptatibus harum explicabo id similique maiores doloribus, placeat labore officiis odio minima dignissimos fuga sequi? Accusamus, velit dolores?deserunt assumenda autem, voluptatibus harum explicabo id similique maiores doloribus, placeat labore officiis odio minima dignissimos fuga sequi? Accusamus, velit dolores?"
+    },
+    {
+        id: 3,
+        title: "Javascript",
+        body: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia corrupti alias in. Inventore sint ea fugiat. Asperiores maxime earum blanditiis. Totam rerum maxime voluptatem labore, ea explicabo tempore autem nulla? Qui hic porro minima tempore nesciunt sit distinctio a impedit dignissimos. Commodi, dignissimos ipsum! Omnis sint magni sunt impedit deserunt assumenda autem, voluptatibus harum explicabo id similique maiores doloribus, placeat labore officiis odio minima dignissimos fuga sequi? Accusamus, velit dolores?unt sit distinctio a impedit dignissimos. Commodi, dignissimos ipsum! Omnis sint magni sunt impedit deserunt assumenda autem, voluptatibus harum explicabo id similique maiores doloribus, placeat labore officiis odio minima dignissimos fuga sequi? Accusamus, velit dolores?333 Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia corrupti alias in. Inventore sint ea fugiat. Asperiores maxime earum blanditiis. Totam rerum maxime voluptatem labore, ea explicabo tempore autem nulla? Qui hic porro minima tempore nesciunt sit distinctio a impedit dignissimos. Commodi, dignissimos ipsum! Omnis sint magni sunt impedit deserunt assumenda autem, voluptatibus harum explicabo id similique maiores doloribus, placeat labore officiis odio minima dignissimos fuga sequi? Accusamus, velit dolores?unt sit distinctio a impedit dignissimos. Commodi, dignissimos ipsum! Omnis sint magni sunt impedit deserunt assumenda autem, voluptatibus harum explicabo id similique maiores doloribus, placeat labore officiis odio minima dignissimos fuga sequi? Accusamus, velit dolores?"
+    },
+    {
+        id: 4,
+        title: "React",
+        body: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia corrupti alias in. Inventore sint ea fugiat. Asperiores maxime earum blanditiis. Totam rerum maxime voluptatem labore, ea explicabo tempore autem nulla? Qui hic porro minima tempore nesciunt sit distinctio a impedit dignissimos. Commodi, dignissimos ipsum! Omnis sint magni sunt impedit deserunt assumenda autem, voluptatibus harum explicabo id similique maiores doloribus, placeat labore officiis odio minima dignissimos fuga sequi? Accusamus, velit dolores?deserunt assumenda autem, voluptatibus harum explicabo id similique maiores doloribus, placeat labore officiis odio minima dignissimos fuga sequi? Accusamus, velit dolores?"
+    },
+    {
+        id: 5,
+        title: "NodeJS",
+        body: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia corrupti alias in. Inventore sint ea fugiat. Asperiores maxime earum blanditiis. Totam rerum maxime voluptatem labore, ea explicabo tempore autem nulla? Qui hic porro minima tempore nesciunt sit distinctio a impedit dignissimos. Commodi, dignissimos ipsum! Omnis sint magni sunt impedit deserunt assumenda autem, voluptatibus harum explicabo id similique maiores doloribus, placeat labore officiis odio minima dignissimos fuga sequi? Accusamus, velit dolores?deserunt assumenda autem, voluptatibus harum explicabo id similique maiores doloribus, placeat labore officiis odio minima dignissimos fuga sequi? Accusamus, velit dolores?Totam rerum maxime voluptatem labore, ea explicabo tempore autem nulla? Qui hic porro minima tempore nesciunt sit distinctio a impedit dignissimos. Commodi, dignissimos ipsum! Omnis sint magni sunt impedit deserunt assumenda autem, voluptatibus harum explicabo id similique maiores doloribus, placeat labore officiis odio minima dignissimos fuga sequi? Accusamus, velit dolores?unt sit distinctio a impedit dignissimos. Commodi, dignissimos ipsum! Omnis sint magni sunt impedit deserunt assumenda autem, voluptatibus harum explicabo id similique maiores doloribus, placeat labore officiis odio minima dignissimos fuga sequi? Accusamus, velit dolores?"
+    },
+]
+
