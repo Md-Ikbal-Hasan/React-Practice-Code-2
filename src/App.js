@@ -6,6 +6,7 @@ import Blogs from './Component/Pages/Blogs';
 import Blog from './Component/Pages/Blog';
 import Error from './Component/Pages/Error';
 import Navbar from './Component/Navbar';
+import User from './Component/Pages/User';
 
 function App() {
   return (
@@ -18,9 +19,13 @@ function App() {
         <Route path='/' element={<Home />} />
         <Route path='/blogs' element={<Blogs />} />
         <Route path='/blogs/:title' element={<Blog />} />
+
         <Route path='/contact' element={<Contact />} />
         <Route path='*' element={<Error />} />
+
+        <Route path='/user' element={<User />} />
       </Routes>
+
     </BrowserRouter>
 
 
